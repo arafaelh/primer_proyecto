@@ -1,0 +1,9 @@
+let numeroSecreto = 6;
+let numeroUsuario = prompt("Indica un número:");
+
+console.log(numeroUsuario);
+
+if (numeroUsuario == numeroSecreto)
+    {
+        alert("Acertaste el número secreto");
+    }
